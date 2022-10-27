@@ -26,8 +26,8 @@ https://coin-or.github.io/pulp/
 - Ei = Test labor cost per hour of smartphone type I model, where I belong to set {Lua1, Lua2}
 - F = Maximum number of hours of assembly work
 - G = Maximum number of test work hours
-- Hf, i = Assembly hours needed to build each smartphone model type I, where I belongs to the set {Lua1, Lua2}
-- Hg, i = Test hours needed to test each smartphone model type I, where I belongs to the set {Lua1, Lua2}
+- Hf, i = Assembly hours needed to build each smartphone model type I, where I belong to the set {Lua1, Lua2}
+- Hg, i = Test hours needed to test each smartphone model type I, where I belong to the set {Lua1, Lua2}
 
 ### Decision Variable
 - Xi = Number of smartphones model I type to be produced this month, where I belong to the set {Lua1, Lua2}
@@ -38,4 +38,4 @@ We will also define constraints so that we don't have negative values ​​and 
 - The number of types I smartphones to be produced cannot be negative, that is, Xi >=0, where I belong to the set (Lua1, Lua2).
 - The total number of assembly hours cannot be greater than the maximum number of available assembly labor hours
 - The total number of test hours cannot be greater than the maximum available test manpower hours.
-- The number of the model I smartphones to be produced cannot be greater than the maximum number of the model I smartphones to be sold this month, where I belongs to the set {Lua1, Lua2}
+- The number of the model I smartphones to be produced cannot be greater than the maximum number of the model I smartphones to be sold this month, where I belong to the set {Lua1, Lua2}
